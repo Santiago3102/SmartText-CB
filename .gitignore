@@ -1,0 +1,23 @@
+# Entorno virtual
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Modelos entrenados (archivos grandes, se regeneran)
+backend/modelo_bigramas.json
+backend/som_model_pesos.npy
+backend/som_model_palabras.json
+
+# Datos personales del usuario (privados)
+backend/usuario_data.json
+
+# VS Code
+.vscode/
+
+# Misceláneos
+*.log
+.DS_Store
+Thumbs.db
